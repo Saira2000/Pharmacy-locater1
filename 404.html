@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Redirecting...</title>
+<script>
+(function () {
+  var repoBase = "/Pharmacy-locater1/";
+  var target = location.pathname + location.search + location.hash;
+  try { sessionStorage.setItem("gh-pages-redirect", target); } catch (e) {}
+  location.replace(location.origin + repoBase);
+})();
+</script></head><body><p>Redirecting to Store Explorer...</p>
+<a href="/Pharmacy-locater1/">Open Store Explorer</a></body></html>
